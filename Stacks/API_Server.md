@@ -1,4 +1,4 @@
-`API_Server`
+# API_Server
 
 The Server component needs to be shipped as a standalone API only server. 
 The operational processing should be mostly like a MVC app which takes REST request , maps them through controller, may filter the input based on security and data validation , propagate to the business logic , implementing DAO and sending the data back .
@@ -17,4 +17,8 @@ Presentation : Angular (this might definitely turn out to be extra heavy. This s
 Let's choose this much for a server stack just yet. We can think of a java Spring stack in a later milestone or maybe for a different App altogether.
 
 
-    Stack Reference :[Mongo With Express](https://www.mongodb.com/blog/post/the-modern-application-stack-part-3-building-a-rest-api-using-expressjs) [Express & Postgre with sequalize] (https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
+## Stack Reference:
+
+[Mongo With Express](https://www.mongodb.com/blog/post/the-modern-application-stack-part-3-building-a-rest-api-using-expressjs) 
+    
+[Express & Postgre with sequalize](https://scotch.io/tutorials/getting-started-with-node-express-and-postgres-using-sequelize)
